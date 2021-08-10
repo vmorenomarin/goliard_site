@@ -1,87 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 body{
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container{
-    width: 70vw;
-    height: 85vh;
-    background: #0d0d0d46;
-    border: 2px solid #5E5E58;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 0, 0.2) 0%, rgba(103, 0, 0, 0.2) 0.01%, rgba(112, 98, 28, 0) 100%) , #0D0D0D ;
-    overflow: auto;
-    backdrop-filter: blur;
-}
-.menu ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-}
-.menu ul li{
-    list-style: none;
-    padding: 15px;
-}
-.menu ul li a{
-    font-family: 'Cinzel Decorative';
-    font-size: 1.2rem;
+    padding: 10px 0px 10px 0px;
     color: #A8A8A8;
-    text-decoration: none;
-    padding: 7px;
 }
-.menu ul li a:hover{
+
+.navbar, .card{
+    background: #1111111e;
+    backdrop-filter: blur(30px);
+    
+}
+.nav-item:hover, a.active, a.btn:hover{
     background: #70621C66;
     border-radius: 50px;
     transition: 1s ease-in-out;
-    font-weight: bold;
-}
-.logo {
-    opacity: 0.7;
-    height: 250px;
-    background: url("../pics/logo.png") no-repeat center;
-    transition: 1s ease-in-out;
-}
-.logo:hover{
-    opacity: 1.5;
-    background: url("../pics/logo2.png") no-repeat center;
-    transition: 1s ease-in-out;
-}
-.header-section{
-    font-family: Cinzel Decorative;
-    line-height: 40px;
-    color: #A8A8A8;
-    margin-left: 5vw;
-}
-.news{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    padding: 0px 5vw;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-.news-frame{
-    width: auto;
-    background: rgba(94, 94, 88, 0.2);
-    border: 2px solid #5E5E58;
-    box-sizing: border-box;
-    border-radius: 50%;
-    transition: 1s ease-in-out;
-    /* object-fit: cover; */
 }
 
-.news-frame img{
-    width: 10vw;
-    padding: 2px;
-    border-radius: 50%;
-    transition: 1s ease-in-out;
+#wrapper{
+    background-image: url(../pics/bg.png);
+    /* height: 100vh; */
+    max-width: 1316px;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    border: #535358 solid 2px;
+    border-radius: 10px;
 }
-.news-frame:hover, img:hover{
-    /* flex-grow: 2; */
-    transition: 1s ease-in-out;
-    border-radius: 5%;
+#main{
+    background-color: #1a1a1acd;
+    /* height: 100vh; */
+    max-width: 1316px;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+.navbar, .sec-title, .card-title, a{
+    font-family: 'Cinzel Decorative';
 }

@@ -1,70 +1,173 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative">
-    <title>Goliard - Black Metal</title>
-</head>
-<body> 
-    <div class="menu">
-        <ul>
-            <li><a class='item1' href="#news">NEWS</a></li> 
-            <li><a class='item2' href="#discography">DISCOGRAPHY</a></li>
-            <li><a class='item3' href="#cofrady">COFRADY</a></li>
-            <li><a class='item4' href="#media">MEDIA</a></li>
-            <li><a class='item5' href="#media">CONTACT</a></li>
-            <div class="indicator"></div>
-        </ul>
-    </div>
-    
-    <main class="container">
-            
-            <div class="logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha684-EVSTQN6/azprG1Anm6QDgpJLIm9Nao0Yz1ztcQTwFspd6yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha684-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="shortcut icon" href="/pics/favicon.png" type="image/x-png">
+        <link rel="icon" href="/pics/favicon.png" type="image/x-png">   
+        <title>Goliard - Black Metal</title>
+    </head>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+        
+                <a href="index.html" class="navbar-brand text-center">
+                    <!-- <p class="d-sm-none">Goliard</p> -->
+                    <img src="/pics/shield-small.png" class="img-fluid" alt="Goliard"> <br>
+                    <p class="d-md-inline d-sm-none">Goliard</p>
+                </a>
+        
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-content">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item mx-1">
+                        <a href="#news" class="nav-link">NEWS</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#disco" class="nav-link">DISCOGRAPHY</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#members" class="nav-link">COFRADY</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#media" class="nav-link">MEDIA</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
             </div>
-            <h2 class="header-section" id="news">News</h2>
-            <sec class="news">
-                
-                <div class="news-frame" id="news1">
-                  
-                        <img src="pics/news1.jpg" alt="">
+        </div>
+    </nav>
+
+    <body>
+        <div class="container" id="wrapper">
+            <div class="container px-4" id="main">
+                <div class="row">
+                    <div class="container-fluid text-center col-12">
+                        <img src="/pics/logo.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <h2 class="sec-title" id="news">News</h2>
+                <div class="row" id="news">
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card card-body mb-2 h-100">
+                                <h4 class="card-title">Recording</h4>
+                                <img src="pics/it.jpg" class="img-fluid card-img-top"  alt="">
+                                <div class="card-text trunk-text">
+                                    Last 9th july Goliard did begin record for new full-length.
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a class="btn text-light" href="">More</a>
+                                </div>
+                            </div>  
+                        </div>  
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card card-body mb-2 h-100">
+                                <h4 class="card-title">Reviews</h4>
+                                <img src="pics/news1.jpg" class="img-fluid card-img-top"  alt="">
+                                <div class="card-text trunk-text">
+                                    Read Some reviews from sites and zines from the world.
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a class="btn text-light" href="">More</a>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="col-sm-4 mx-auto">
+                            <div class="card card-body mb-2 h-100">
+                                <h4 class="card-title">New album</h4>
+                                <img src="pics/tdh.jpg" class="img-fluid card-img-top"  alt="">
+                                <div class="card-text trunk-text">
+                                    <i>The Darkest Hour</i> is most recent album from Goliard.
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a class="btn text-light" href="">More</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <hr>
+                <h2 class="sec-title" id="disco">Discography</h2>
+                <div class="row" id="disco">
                     
-                    <!-- <div class="content">Noticia1</div> -->
+                    <h6 class="sec-title">Full-lengths</h6>
+                    <div class="col-md-4 mx-auto">
+                        <div class="card card-body mb-2 h-100">
+                            <h6 class="card-title">Iconoclastic Hyms [2017]</h6>
+                            <img src="pics/ih.jpg" class="img-fluid card-img-top"  alt="">
+                        </div>
+                    </div>  
+                    <div class="col-md-4 mx-auto">
+                        <div class="card card-body mb-2 h-100">
+                            <h6 class="card-title">The Darkest Hour [2020]</h6>
+                            <img src="pics/tdh.jpg" class="img-fluid card-img-top"  alt="">
+                        </div>
+                    </div>    
+                    <div class="col-md-4 mx-auto">
+                        <div class="card card-body mb-2 h-100">
+                            <h6 class="card-title">In Taberna [2022]</h6>
+                            <img src="pics/it2.jpg" class="img-fluid card-img-top"  alt="">
+                        </div>
+                    </div>
+                    <h6 class="sec-title mt-2 ">EP, Compilations</h6>
+                        <div class="col-md-4 mx-auto">
+                            <div class="card card-body mb-2 h-100">
+                                <h6 class="card-title">Cantus Goliae [2013]</h6>
+                                <img src="pics/cg.jpg" class="img-fluid card-img-top"  alt="">
+                            </div>
+                        </div>  
+                        <div class="col-md-4 mx-auto">
+                            <div class="card card-body mb-2 h-100">
+                                <h6 class="card-title">Metal Metralla I [2015]</h6>
+                                <img src="pics/mmi.jpg" class="img-fluid card-img-top"  alt="">
+                            </div>
+                        </div>      
                 </div>
-                <div class="news-frame" id="news2">
-                  
-                        <img src="pics/news1.jpg" alt="">
-                   
-                    <!-- <div class="content">Noticia2</div> -->
-                </div>
-                <div class="news-frame" id="news3">
-                  
-                        <img src="pics/news1.jpg" alt="">
-                    
-                    <!-- <div class="content">Noticia3</div> -->
-                </div>
-              
-                <div class="news-frame" id="news4">
-                  
-                    <img src="pics/news1.jpg" alt="">
-                
-                <!-- <div class="content">Noticia4</div> -->
-                </div>
-            
-             
-            </section>
-            <div class="section discography">
-                <div class="frame discography">
-
-                </div>
-            </div>
-            <section class="section media">
-
-            </section>
-            <section class="section contact">
-
-            </section>
-    </main>
-</body>
+                <hr> 
+                <h2 class="sec-title" id="disco">Members</h2>
+                <div class="row" id="members">
+                    <div class="col-md-3 mb-2">
+                        <div class="card card-body h-100">
+                            <img src="pics/s2.jpg" class="img-fluid card-img-top"  alt="">
+                            <div class="text-center">
+                                <small>Cadáver - Drums</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="card card-body h-100">
+                            <img src="pics/s1.jpg" class="img-fluid card-img-top"  alt="">
+                            <div class="text-center">
+                                <small>Cristian - Lead guitars</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="card card-body h-100">
+                            <img src="pics/s3.jpg" class="img-fluid card-img-top"  alt="">
+                            <div class="text-center">
+                                <small>Iván - Bass</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="card card-body h-100">
+                            <img src="pics/s4.jpg" class="img-fluid card-img-top"  alt="">
+                            <div class="text-center">
+                                <small>Víctor - Guitars & Vocals</small>
+                            </div>
+                        </div>
+                    </div>  
+                <div>    
+            <div>
+        </div>  
+    </body>
 </html>
